@@ -9,7 +9,7 @@ export class TableService {
 
  
  findAll() {
-        return 'Buscar todas as mesas';
+        return this.tables;
     }
 
     create(createTableDto: CreateTableDto) {
